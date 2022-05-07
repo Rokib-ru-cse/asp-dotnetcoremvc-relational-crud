@@ -1,0 +1,37 @@
+@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Category Page";
+}
+<partial name="_Notification"/>
+
+<div class="text-center">
+    <h1 class="display-4 py-2">Category List</h1>
+    <h4><a class="btn btn-info" asp-controller="Category" asp-action="Create">Create New Category</a></h4>
+    <br>
+    <table class="table table-bordered table-stripped">
+        <thead>
+            <tr>
+                <th>category name</th>
+                <th>display order</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.DisplayOrder</td>
+                    <td>
+                        <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,33 @@
+@model Category
+@{
+    ViewData["Title"] = "Create Category Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4 py-2">Add Category</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form method="post">
+                    <div asp-validation-summary="All"></div>
+                    <div class="mb-3">
+                        <label asp-for="Name">Category Name</label>
+                        <input asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="DisplayOrder"></label>
+                        <input asp-for="DisplayOrder" class="form-control">
+                        <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+@{
+    <partial name="_validationScriptsPartial" />
+}
+}
