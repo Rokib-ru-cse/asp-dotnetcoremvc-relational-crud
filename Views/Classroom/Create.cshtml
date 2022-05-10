@@ -1,0 +1,25 @@
+@model Classroom
+@{
+    ViewData["Title"] = "Create classroom page";
+}
+
+<div class="text-center">
+    <h1>Add Classroom</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form method="post">
+                        <div class="mb-3">
+                            <label asp-for="RoomNo">Enter Room Number</label>
+                            <input asp-for="RoomNo" class="form-control" />
+                        </div>
+                        <div>
+                            <label asp-for="TeacherId">Select Teacher</label>
+                            @Html.DropDownListFor(model => model.TeacherId,ViewBag.Teacher as SelectList,  new { @class = "form-control"} )
+                        </div>
+                        <button type="submit" class="btn btn-outline-primary btn-sm">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

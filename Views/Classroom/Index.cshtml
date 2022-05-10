@@ -1,0 +1,36 @@
+@model IEnumerable<Classroom>
+@{
+    ViewData["Classroom"] = "Classroom list";
+}
+
+
+<div class="d-flex justify-content-around">
+<p>Classroom Page</p>
+<a class="btn btn-outline-success btn-sm" asp-controller="Classroom" asp-action="Create">Add New Classroom</a>
+</div>
+<hr>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>RoomNo</th>
+            <th>Teacher</th>
+            <th>Students</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.RoomNo</td>
+                <td>@item.Teacher.Name</td>
+                <td><a asp-controller="Classroom" asp-action="Students" asp-route-id="@item.Id">Students</a></td>
+                <td><a asp-controller="Classroom" asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
+                <td><a asp-controller="Classroom" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

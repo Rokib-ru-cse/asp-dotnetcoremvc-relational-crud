@@ -15,16 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Category/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlLmNzaHRtbA==
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Classroom/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3Nyb29tL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Category/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvRWRpdC5jc2h0bWw=
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Classroom/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3Nyb29tL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Classroom/Students.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3Nyb29tL1N0dWRlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Course/Students.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL1N0dWRlbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Home/Index.cshtml]
@@ -45,6 +53,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Student/Courses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9Db3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Teacher/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Teacher/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/rokib-ru-cse/Desktop/problems/c\#/Aspdotnetmcvcrud/Views/_ViewImports.cshtml]

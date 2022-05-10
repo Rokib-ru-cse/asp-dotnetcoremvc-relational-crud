@@ -1,0 +1,21 @@
+@model Teacher
+@{
+    ViewData["Title"] = "Edit Teacher Page";
+}
+
+<div class="text-center">
+    <h1>Edit Teacher</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form method="post">
+                        <div class="mb-3">
+                            <label asp-for="Name">Teacher Name</label>
+                            <input asp-for="Name" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-outline-primary btn-sm">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

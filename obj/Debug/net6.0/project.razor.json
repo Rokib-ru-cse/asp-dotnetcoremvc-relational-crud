@@ -16303,13 +16303,53 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Classroom/Create.cshtml",
+      "TargetPath": "Views\\Classroom\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Course/Index.cshtml",
+      "TargetPath": "Views\\Course\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Teacher/Index.cshtml",
+      "TargetPath": "Views\\Teacher\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Classroom/Index.cshtml",
+      "TargetPath": "Views\\Classroom\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Student/Courses.cshtml",
+      "TargetPath": "Views\\Student\\Courses.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Teacher/Create.cshtml",
+      "TargetPath": "Views\\Teacher\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Course/Students.cshtml",
+      "TargetPath": "Views\\Course\\Students.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Classroom/Students.cshtml",
+      "TargetPath": "Views\\Classroom\\Students.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16323,28 +16363,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Teacher/Edit.cshtml",
+      "TargetPath": "Views\\Teacher\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Student/Index.cshtml",
+      "TargetPath": "Views\\Student\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Category/Edit.cshtml",
-      "TargetPath": "Views\\Category\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Category/Index.cshtml",
-      "TargetPath": "Views\\Category\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Shared/_Notification.cshtml",
       "TargetPath": "Views\\Shared\\_Notification.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/rokib-ru-cse/Desktop/problems/c#/Aspdotnetmcvcrud/Views/Category/Create.cshtml",
-      "TargetPath": "Views\\Category\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
